@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-01:#131313;
+    --dark-02:#424242;
+    --dark-03:#727272;
+    --dark-04:#A1A1A1;
+    --dark-05:#D0D0D0;
+    --dark-06:#E7E7E7;
+    --dark-07:#F3F3F3;
+    --white-color:#FFFFFF;
+    --Primary-bg-color:rgba(255, 144, 14, 0.1);
+    --secondary-bg-color: #FFF4E7;
+    --btn-color:#FF900E;
+}
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Share Style */
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* color Style  */
+.bg-color{
+    background-color: var(--Primary-bg-color);
+}
+
+/* Header Style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+.nav-links{
+    display: flex;
+}
+.nav-link {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.navbar h3 {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--dark-01);
+}
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.navbar li a {
+    color: var(--dark-02);
+}
