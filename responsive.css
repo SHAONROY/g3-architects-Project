@@ -44,6 +44,38 @@
     .feature-text {
         padding: 50px 0px;
     }
+
+    .feature-will-enjoy-container {
+        flex-direction: column;
+    }
+
+    .feature-will-enjoy-text {
+        width: 100%;
+    }
+
+    .feature-will-enjoy-image {
+        width: 100%;
+    }
+
+    .feature-card p {
+        padding: 10px !important;
+    }
+
+    .experience-year {
+        font-size: 30px !important;
+    }
+
+    .experience-badge {
+        padding: 20px;
+        margin-top: -90px;
+    }
+
+    .experience-badge span {
+        font-size: 16px;
+    }
+    .feature-will-enjoy-container{
+        padding: 0px 10px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -75,6 +107,18 @@
     .feature-image img {
         width: 100%;
     }
+
+    .feature-will-enjoy-container {
+        flex-direction: column;
+    }
+
+    .feature-will-enjoy-text {
+        width: 100%;
+    }
+
+    .feature-will-enjoy-image {
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -93,6 +137,18 @@
     .feature-text {
         padding: 50px 0px;
     }
+
+    .feature-will-enjoy-container {
+        flex-direction: column;
+    }
+
+    .feature-will-enjoy-text {
+        width: 100%;
+    }
+
+    .feature-will-enjoy-image {
+        width: 100%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -106,5 +162,17 @@
 
     .feature-image img {
         width: 100%;
+    }
+
+    .feature-will-enjoy-text {
+        width: 50%;
+    }
+
+    .feature-will-enjoy-image {
+        width: 50%;
+    }
+
+    .feature-will-enjoy-image {
+        padding: 150px 0px;
     }
 }

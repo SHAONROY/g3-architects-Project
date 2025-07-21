@@ -79,12 +79,14 @@ a {
 
 .navbar,
 .banner,
-.feature {
+.feature,
+.feature-will-enjoy-container {
     max-width: 1440px;
     margin: 0px auto;
     padding: 0px 50px;
 }
-.navbar{
+
+.navbar {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -136,9 +138,11 @@ a {
 .feature-image img {
     border-radius: 8px;
 }
-.feature-text{
-   padding: 200px 0px;
+
+.feature-text {
+    padding: 200px 0px;
 }
+
 .feature-text p {
     font-size: 16px;
     font-weight: normal;
@@ -146,13 +150,68 @@ a {
     line-height: 26px;
     padding: 25px 0px;
 }
+
 .feature-text h3 {
     font-size: 45px;
     color: var(--dark-01);
 }
+
 .feature-text span {
     color: var(--dark-04);
 }
-.feature-text .text{
-    color: var(--btn-color) !important  ;
+
+.feature-text .text {
+    color: var(--btn-color) !important;
 }
+
+/* <!--Start Feature will Enjoy Section--> */
+.feature-will-enjoy-container {
+    display: flex;
+    gap: 10px;
+}
+
+.feature-will-enjoy-container img {
+    width: 100%;
+}
+.feature-will-enjoy-container h3 {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--dark-01);
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+.feature-will-enjoy-text{
+    width: 45%;
+}
+.feature-will-enjoy-image{
+    width: 45%;
+}
+.feature-will-enjoy-container p {
+    font-size: 16px;
+    color: var(--dark-03);
+    padding: 24px 0px;
+}
+.feature-card {
+    padding: 25px;
+    margin-bottom:10px;
+    box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.06);
+    border-radius: 8px;
+}
+.feature-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark-01);
+}
+.feature-card p{
+    padding: 10px !important;
+} 
+.experience-year{
+    font-size: 50px !important;
+}
+.experience-badge {
+    padding: 45px;
+    margin-top: -90px;
+}
+.experience-badge span {
+    font-size: 25px;
+}  
