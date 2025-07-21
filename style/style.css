@@ -80,7 +80,8 @@ a {
 .navbar,
 .banner,
 .feature,
-.feature-will-enjoy-container {
+.feature-will-enjoy-container,
+.some-fact-container {
     max-width: 1440px;
     margin: 0px auto;
     padding: 0px 50px;
@@ -215,3 +216,34 @@ a {
 .experience-badge span {
     font-size: 25px;
 }  
+/* Start The some Fact Section */
+.some-fact{
+    padding: 50px 0px;
+}
+.some-fact-container h3 {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--dark-01);
+}
+.some-fact-container p {
+    font-size: 16px;
+    color: var(--dark-03);
+    padding: 20px 0px;
+}
+.some-fact-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 120px;
+
+}
+.some-fact-item{
+    border: 1px solid #FF900E;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+.some-fact-item h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--dark-01);
+}

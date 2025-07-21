@@ -73,9 +73,18 @@
     .experience-badge span {
         font-size: 16px;
     }
-    .feature-will-enjoy-container{
+
+    .feature-will-enjoy-container {
         padding: 0px 10px;
     }
+
+    .some-fact-card {
+        gap: 50px;
+        grid-template-columns: 1fr;
+    }
+   .some-fact-container h3{
+    font-size: 30px;
+   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -119,9 +128,16 @@
     .feature-will-enjoy-image {
         width: 100%;
     }
+
+    .some-fact-card {
+        gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width:768px) and (max-width: 991.98px) {
     .navbar h3 {
         font-size: 35px;
     }
@@ -149,6 +165,12 @@
     .feature-will-enjoy-image {
         width: 100%;
     }
+
+    .some-fact-card {
+        gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -174,5 +196,9 @@
 
     .feature-will-enjoy-image {
         padding: 150px 0px;
+    }
+
+    .some-fact-card {
+        gap: 50px;
     }
 }
