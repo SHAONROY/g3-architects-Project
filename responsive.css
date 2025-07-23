@@ -85,6 +85,10 @@
    .some-fact-container h3{
     font-size: 30px;
    }
+   .sponspors-card{
+        grid-template-columns: repeat(1,1fr); 
+    }
+    
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -133,7 +137,9 @@
         gap: 50px;
         grid-template-columns: repeat(2, 1fr);
     }
-
+.sponspors-card{
+        grid-template-columns: repeat(2,1fr); 
+    }
 
 }
 
@@ -169,6 +175,9 @@
     .some-fact-card {
         gap: 50px;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .sponspors-card{
+        grid-template-columns: repeat(3,1fr); 
     }
 
 }

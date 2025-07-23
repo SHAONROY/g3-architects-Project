@@ -81,7 +81,9 @@ a {
 .banner,
 .feature,
 .feature-will-enjoy-container,
-.some-fact-container {
+.some-fact-container,
+.sponspors,
+.footer {
     max-width: 1440px;
     margin: 0px auto;
     padding: 0px 50px;
@@ -174,6 +176,7 @@ a {
 .feature-will-enjoy-container img {
     width: 100%;
 }
+
 .feature-will-enjoy-container h3 {
     font-size: 45px;
     font-weight: bold;
@@ -181,69 +184,129 @@ a {
     padding-left: 20px;
     border-left: 5px solid #FF900E;
 }
-.feature-will-enjoy-text{
+
+.feature-will-enjoy-text {
     width: 45%;
 }
-.feature-will-enjoy-image{
+
+.feature-will-enjoy-image {
     width: 45%;
 }
+
 .feature-will-enjoy-container p {
     font-size: 16px;
     color: var(--dark-03);
     padding: 24px 0px;
 }
+
 .feature-card {
     padding: 25px;
-    margin-bottom:10px;
-    box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.06);
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
-.feature-card h4{
+
+.feature-card h4 {
     font-size: 20px;
     font-weight: bold;
     color: var(--dark-01);
 }
-.feature-card p{
+
+.feature-card p {
     padding: 10px !important;
-} 
-.experience-year{
+}
+
+.experience-year {
     font-size: 50px !important;
 }
+
 .experience-badge {
     padding: 45px;
     margin-top: -90px;
 }
+
 .experience-badge span {
     font-size: 25px;
-}  
+}
+
 /* Start The some Fact Section */
-.some-fact{
+.some-fact {
     padding: 50px 0px;
 }
+
 .some-fact-container h3 {
     font-size: 45px;
     font-weight: bold;
     color: var(--dark-01);
 }
+
 .some-fact-container p {
     font-size: 16px;
     color: var(--dark-03);
     padding: 20px 0px;
 }
+
 .some-fact-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 120px;
 
 }
-.some-fact-item{
+
+.some-fact-item {
     border: 1px solid #FF900E;
     padding: 40px;
     text-align: center;
     border-radius: 8px;
 }
+
 .some-fact-item h2 {
     font-size: 45px;
     font-weight: bold;
     color: var(--dark-01);
+}
+
+/* Start The Sponspors Section */
+.sponspors-container {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.sponspors-container h3 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.sponspors-container p {
+    font-size: 16px;
+    color: var(--dark-03);
+    padding-top: 20px;
+}
+
+.sponspors-card {
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    filter: grayscale(100%);
+    gap: 30px;
+    text-align: center;
+}
+
+.sponspors-card img {
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Start The Footer Section */
+.footer-container {
+    background-color: var(--Primary-bg-color);
+    padding: 30px 0px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 200px;
+}
+.footer-container p {
+    color: var(--dark-02);
+    font-size: 20px;
 }
